@@ -1,0 +1,6 @@
+@ProyDAW_HostAddress = http://localhost:5290
+
+GET {{ProyDAW_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
