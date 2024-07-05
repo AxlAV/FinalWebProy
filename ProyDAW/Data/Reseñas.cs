@@ -17,7 +17,7 @@ public partial class Reseñas
 
     public DateTime? FechaResena { get; set; }
 
-    public byte[]? ImagenResena { get; set; }
+    public string? ImagenResena { get; set; }
 
     public virtual Actividades? Actividad { get; set; }
 

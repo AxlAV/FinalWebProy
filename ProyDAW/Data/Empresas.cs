@@ -17,7 +17,7 @@ public partial class Empresas
 
     public string? Direccion { get; set; }
 
-    public byte[]? ImagenEmpresa { get; set; }
+    public string? ImagenEmpresa { get; set; }
 
     public virtual ICollection<Actividades> Actividades { get; set; } = new List<Actividades>();
 }

@@ -17,7 +17,7 @@ public partial class Usuarios
 
     public DateTime? FechaRegistro { get; set; }
 
-    public byte[]? ImagenUsuario { get; set; }
+    public string? ImagenUsuario { get; set; }
 
     public virtual ICollection<Reservas> Reservas { get; set; } = new List<Reservas>();
 
