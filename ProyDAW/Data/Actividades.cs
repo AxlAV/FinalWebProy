@@ -29,7 +29,7 @@ public partial class Actividades
 
     public int? Capacidad { get; set; }
 
-    public byte[]? ImagenActividad { get; set; }
+    public string? ImagenActividad { get; set; }
 
     public virtual Empresas? Empresa { get; set; }
 
